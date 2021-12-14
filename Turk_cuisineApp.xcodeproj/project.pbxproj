@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC733DE628C5C56D88668BD9 /* Pods_Turk_cuisineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */; };
 		CE5E0F1E276795BC0012D6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F1D276795BC0012D6EE /* AppDelegate.swift */; };
 		CE5E0F20276795BC0012D6EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F1F276795BC0012D6EE /* SceneDelegate.swift */; };
 		CE5E0F25276795BC0012D6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F23276795BC0012D6EE /* Main.storyboard */; };
@@ -24,9 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turk_cuisineApp.debug.xcconfig"; path = "Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp.debug.xcconfig"; sourceTree = "<group>"; };
-		AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turk_cuisineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turk_cuisineApp.release.xcconfig"; path = "Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp.release.xcconfig"; sourceTree = "<group>"; };
 		CE5E0F1A276795BC0012D6EE /* Turk_cuisineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turk_cuisineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E0F1D276795BC0012D6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5E0F1F276795BC0012D6EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,37 +45,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC733DE628C5C56D88668BD9 /* Pods_Turk_cuisineApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02A68D811C9FB0E062078FAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		691DBAC29A8ABF5CEC4989A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */,
-				BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		CE5E0F11276795BC0012D6EE = {
 			isa = PBXGroup;
 			children = (
 				CE5E0F1C276795BC0012D6EE /* Turk_cuisineApp */,
 				CE5E0F1B276795BC0012D6EE /* Products */,
-				691DBAC29A8ABF5CEC4989A8 /* Pods */,
-				02A68D811C9FB0E062078FAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -412,7 +388,6 @@
 		};
 		CE5E0F32276795BF0012D6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,7 +415,6 @@
 		};
 		CE5E0F33276795BF0012D6EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
