@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC733DE628C5C56D88668BD9 /* Pods_Turk_cuisineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */; };
 		CE5E0F1E276795BC0012D6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F1D276795BC0012D6EE /* AppDelegate.swift */; };
 		CE5E0F20276795BC0012D6EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F1F276795BC0012D6EE /* SceneDelegate.swift */; };
-		CE5E0F22276795BC0012D6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F21276795BC0012D6EE /* ViewController.swift */; };
 		CE5E0F25276795BC0012D6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F23276795BC0012D6EE /* Main.storyboard */; };
 		CE5E0F28276795BC0012D6EE /* Turk_cuisineApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F26276795BC0012D6EE /* Turk_cuisineApp.xcdatamodeld */; };
 		CE5E0F2A276795BF0012D6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F29276795BF0012D6EE /* Assets.xcassets */; };
 		CE5E0F2D276795BF0012D6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F2B276795BF0012D6EE /* LaunchScreen.storyboard */; };
+		CE5E0F36276797840012D6EE /* turk_cuisine.json in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F35276797840012D6EE /* turk_cuisine.json */; };
+		CE5E0F3927679D170012D6EE /* foodDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F3827679D170012D6EE /* foodDatas.swift */; };
+		CE5E0F3B2767A2030012D6EE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F3A2767A2030012D6EE /* DataLoader.swift */; };
+		CE5E0F40276885640012D6EE /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F3E276885640012D6EE /* DataTableViewCell.swift */; };
+		CE5E0F41276885640012D6EE /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F3F276885640012D6EE /* DataTableViewCell.xib */; };
+		CE5E0F44276885840012D6EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E0F42276885840012D6EE /* HomeViewController.swift */; };
+		CE5E0F45276885840012D6EE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5E0F43276885840012D6EE /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turk_cuisineApp.debug.xcconfig"; path = "Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turk_cuisineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turk_cuisineApp.release.xcconfig"; path = "Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp.release.xcconfig"; sourceTree = "<group>"; };
 		CE5E0F1A276795BC0012D6EE /* Turk_cuisineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turk_cuisineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E0F1D276795BC0012D6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5E0F1F276795BC0012D6EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5E0F21276795BC0012D6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE5E0F24276795BC0012D6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5E0F27276795BC0012D6EE /* Turk_cuisineApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Turk_cuisineApp.xcdatamodel; sourceTree = "<group>"; };
 		CE5E0F29276795BF0012D6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5E0F2C276795BF0012D6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5E0F2E276795BF0012D6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5E0F35276797840012D6EE /* turk_cuisine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = turk_cuisine.json; sourceTree = "<group>"; };
+		CE5E0F3827679D170012D6EE /* foodDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDatas.swift; sourceTree = "<group>"; };
+		CE5E0F3A2767A2030012D6EE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		CE5E0F3E276885640012D6EE /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		CE5E0F3F276885640012D6EE /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		CE5E0F42276885840012D6EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE5E0F43276885840012D6EE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC733DE628C5C56D88668BD9 /* Pods_Turk_cuisineApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A68D811C9FB0E062078FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5834B2668FE9DE89FD3534 /* Pods_Turk_cuisineApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		691DBAC29A8ABF5CEC4989A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */,
+				BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE5E0F11276795BC0012D6EE = {
 			isa = PBXGroup;
 			children = (
 				CE5E0F1C276795BC0012D6EE /* Turk_cuisineApp */,
 				CE5E0F1B276795BC0012D6EE /* Products */,
+				691DBAC29A8ABF5CEC4989A8 /* Pods */,
+				02A68D811C9FB0E062078FAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +94,54 @@
 		CE5E0F1C276795BC0012D6EE /* Turk_cuisineApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE5E0F47276885A80012D6EE /* controllers */,
+				CE5E0F462768858C0012D6EE /* appUtils */,
+				CE5E0F3727679CF90012D6EE /* FoodDatas */,
+				CE5E0F34276797750012D6EE /* jsonFlie */,
 				CE5E0F1D276795BC0012D6EE /* AppDelegate.swift */,
 				CE5E0F1F276795BC0012D6EE /* SceneDelegate.swift */,
-				CE5E0F21276795BC0012D6EE /* ViewController.swift */,
+				CE5E0F2E276795BF0012D6EE /* Info.plist */,
+			);
+			path = Turk_cuisineApp;
+			sourceTree = "<group>";
+		};
+		CE5E0F34276797750012D6EE /* jsonFlie */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E0F35276797840012D6EE /* turk_cuisine.json */,
+			);
+			path = jsonFlie;
+			sourceTree = "<group>";
+		};
+		CE5E0F3727679CF90012D6EE /* FoodDatas */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E0F3827679D170012D6EE /* foodDatas.swift */,
+				CE5E0F3A2767A2030012D6EE /* DataLoader.swift */,
+			);
+			path = FoodDatas;
+			sourceTree = "<group>";
+		};
+		CE5E0F462768858C0012D6EE /* appUtils */ = {
+			isa = PBXGroup;
+			children = (
 				CE5E0F23276795BC0012D6EE /* Main.storyboard */,
 				CE5E0F29276795BF0012D6EE /* Assets.xcassets */,
 				CE5E0F2B276795BF0012D6EE /* LaunchScreen.storyboard */,
-				CE5E0F2E276795BF0012D6EE /* Info.plist */,
 				CE5E0F26276795BC0012D6EE /* Turk_cuisineApp.xcdatamodeld */,
 			);
-			path = Turk_cuisineApp;
+			path = appUtils;
+			sourceTree = "<group>";
+		};
+		CE5E0F47276885A80012D6EE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E0F3E276885640012D6EE /* DataTableViewCell.swift */,
+				CE5E0F3F276885640012D6EE /* DataTableViewCell.xib */,
+				CE5E0F42276885840012D6EE /* HomeViewController.swift */,
+				CE5E0F43276885840012D6EE /* HomeViewController.xib */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5E0F31276795BF0012D6EE /* Build configuration list for PBXNativeTarget "Turk_cuisineApp" */;
 			buildPhases = (
+				570A65AE4ADA97CDADB82906 /* [CP] Check Pods Manifest.lock */,
 				CE5E0F16276795BC0012D6EE /* Sources */,
 				CE5E0F17276795BC0012D6EE /* Frameworks */,
 				CE5E0F18276795BC0012D6EE /* Resources */,
+				0AA9DB8E3B30DF74775A00EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +204,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E0F41276885640012D6EE /* DataTableViewCell.xib in Resources */,
 				CE5E0F2D276795BF0012D6EE /* LaunchScreen.storyboard in Resources */,
 				CE5E0F2A276795BF0012D6EE /* Assets.xcassets in Resources */,
+				CE5E0F36276797840012D6EE /* turk_cuisine.json in Resources */,
 				CE5E0F25276795BC0012D6EE /* Main.storyboard in Resources */,
+				CE5E0F45276885840012D6EE /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA9DB8E3B30DF74775A00EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turk_cuisineApp/Pods-Turk_cuisineApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570A65AE4ADA97CDADB82906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Turk_cuisineApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE5E0F16276795BC0012D6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5E0F22276795BC0012D6EE /* ViewController.swift in Sources */,
+				CE5E0F3927679D170012D6EE /* foodDatas.swift in Sources */,
+				CE5E0F3B2767A2030012D6EE /* DataLoader.swift in Sources */,
 				CE5E0F1E276795BC0012D6EE /* AppDelegate.swift in Sources */,
 				CE5E0F28276795BC0012D6EE /* Turk_cuisineApp.xcdatamodeld in Sources */,
+				CE5E0F44276885840012D6EE /* HomeViewController.swift in Sources */,
 				CE5E0F20276795BC0012D6EE /* SceneDelegate.swift in Sources */,
+				CE5E0F40276885640012D6EE /* DataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +412,7 @@
 		};
 		CE5E0F32276795BF0012D6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B877DEB52C401D9ED049396 /* Pods-Turk_cuisineApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +440,7 @@
 		};
 		CE5E0F33276795BF0012D6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA652D94FD78CA1D0944F06F /* Pods-Turk_cuisineApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
